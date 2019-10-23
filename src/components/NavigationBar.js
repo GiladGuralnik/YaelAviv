@@ -1,12 +1,11 @@
 import React from 'react';
 import { Nav, Navbar,NavDropdown } from 'react-bootstrap';
 
-
-
 export const NavigationBar = () => (
-    <Navbar bg="navbar navbar-light bg-light">
+    <Navbar bg="navbar" style={{position: 'absolute', left: '50%', top: '10%',
+    transform: 'translate(-50%, -50%)', minBlockSize: '350px'}}>
     <Navbar.Brand href="home">
-      {/* <img
+      {/* <imgls
         alt=""
         src="/logo.png"
         width="50"
@@ -25,10 +24,8 @@ export const NavigationBar = () => (
                 <NavDropdown.Divider />
                 <NavDropdown.Item href="#action/3.4">All</NavDropdown.Item>
             </NavDropdown>            
-        </Nav>
-        <Nav>
-            <Nav.Link class="Button" href="about">About</Nav.Link>
-            <Nav.Link href="contact">Contact</Nav.Link>
+            <Nav.Link style={{paddingLeft: '25px'}} href="about">About</Nav.Link>
+            <Nav.Link style={{paddingLeft: '25px'}} href="contact">Contact</Nav.Link>
         </Nav>
     </Navbar.Collapse>
     </Navbar>
