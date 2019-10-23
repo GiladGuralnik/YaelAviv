@@ -2,8 +2,8 @@ import React from 'react';
 import { Nav, Navbar,NavDropdown } from 'react-bootstrap';
 
 export const NavigationBar = () => (
-    <Navbar bg="navbar" style={{position: 'absolute', left: '50%', top: '10%',
-    transform: 'translate(-50%, -50%)', minBlockSize: '350px'}}>
+    <Navbar style={{position: 'absolute', left: '50%', top: '10%',
+    transform: 'translate(-50%, -50%)'}}>
     <Navbar.Brand href="home">
       {/* <imgls
         alt=""
@@ -15,7 +15,7 @@ export const NavigationBar = () => (
         {' YAEL AVIV '}
     </Navbar.Brand>
     <Navbar.Toggle aria-controls="basic-navbar-nav" />
-    <Navbar.Collapse id="basic-navbar-nav">
+    <Navbar.Collapse  id="basic-navbar-nav">
         <Nav className="mr-auto ">
             <NavDropdown title="Gallery" id="basic-nav-dropdown">
                 <NavDropdown.Item href="#action/3.1">Wood</NavDropdown.Item>

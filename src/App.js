@@ -6,13 +6,12 @@ import { Contact } from './Contact';
 import { Layout } from './components/Layout';
 import { NavigationBar } from './components/NavigationBar';
 
-
 class App extends Component {
   render() {
     return (
       <React.Fragment>
-        <NavigationBar/>
-        <Layout>
+          <NavigationBar/>
+        <Layout >
           <Router>
             <Switch>
               <Route exact path="/" component={Home}/>
