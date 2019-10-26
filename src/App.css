@@ -20,3 +20,18 @@
 .App-link {
   color: #09d3ac;
 }
+.centered {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.grid{
+padding-top: 50px; 
+margin-left: 100px;
+margin-right: 100px;
+background: firebrick;
+
+}

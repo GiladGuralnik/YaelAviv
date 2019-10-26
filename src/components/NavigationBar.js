@@ -2,8 +2,7 @@ import React from 'react';
 import { Nav, Navbar,NavDropdown } from 'react-bootstrap';
 
 export const NavigationBar = () => (
-    <Navbar style={{position: 'absolute', left: '50%', top: '10%',
-    transform: 'translate(-50%, -50%)'}}>
+    <Navbar>
     <Navbar.Brand href="home">
       {/* <imgls
         alt=""
