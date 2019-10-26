@@ -6,8 +6,6 @@ import { Contact } from './Contact';
 import { Layout } from './components/Layout';
 import { NavigationBar } from './components/NavigationBar';
 import {Grid} from './components/Grid'
-import { Button} from 'react-bootstrap';
-
 
 class App extends Component {
   render() {
