@@ -29,8 +29,12 @@
 }
 
 .grid{
-padding-top: 50px; 
+padding-top: 30px; 
 margin-left: 10%;
 margin-right: 10%;
 
 }
+
+.centered.title{
+  padding-top: 50px;   
+  }

@@ -7,7 +7,6 @@ import { Layout } from './components/Layout';
 import { NavigationBar } from './components/NavigationBar';
 import {Grid} from './components/Grid'
 import {Test} from './components/Test'
-
 class App extends Component {
   render() {
     return (
@@ -16,10 +15,14 @@ class App extends Component {
       {/* <a href="mailto:some@email.com" target="_blank" class="btn btn-primary">Email Us</a> */}
 
 
+        <div className="centered title">
+          <h1>Yael Aviv Lasry</h1>
+        </div>
+
         <div className="centered">
           <NavigationBar/>
         </div>
-        
+
         <Layout >
           <Router>
             <Switch>
