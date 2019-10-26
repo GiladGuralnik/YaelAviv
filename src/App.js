@@ -7,16 +7,26 @@ import { Layout } from './components/Layout';
 import { NavigationBar } from './components/NavigationBar';
 import {Grid} from './components/Grid'
 import {Test} from './components/Test'
+
 class App extends Component {
   render() {
+
+
+    function handleClick() {
+      // TODO: this reloaction not saving the status [change it]
+      window.location = '/Home';
+    }
+
     return (
       <React.Fragment>
 
       {/* <a href="mailto:some@email.com" target="_blank" class="btn btn-primary">Email Us</a> */}
 
-
         <div className="centered title">
-          <h1>Yael Aviv Lasry</h1>
+          <button class="btn" style={{outline: "none", boxShadow:"none"}} onClick={handleClick}>
+            <h1>Yael Aviv Lasry</h1>
+          </button>
+          
         </div>
 
         <div className="centered">
