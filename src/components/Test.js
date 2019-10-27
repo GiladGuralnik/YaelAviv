@@ -6,11 +6,11 @@ const IMAGES =
 [{
         src: "https://c2.staticflickr.com/9/8817/28973449265_07e3aa5d2e_b.jpg",
         thumbnail: "https://c2.staticflickr.com/9/8817/28973449265_07e3aa5d2e_b.jpg",
-        thumbnailWidth: 900,
-        thumbnailHeight: 600,
+        thumbnailWidth: 320,
+        thumbnailHeight: 174,
         caption: "After Rain (Jeshu John - designerspics.com)",
         enableImageSelection: "false"
-},
+ },
 {
         src: "https://c2.staticflickr.com/9/8356/28897120681_3b2c0f43e0_b.jpg",
         thumbnail: "https://c2.staticflickr.com/9/8356/28897120681_3b2c0f43e0_n.jpg",
@@ -52,7 +52,11 @@ const IMAGES =
 
 
 export const Test = () => (
-    <Gallery images={IMAGES} />
+    <Gallery 
+        images={IMAGES} 
+        
+    
+    />
 
 
 )
