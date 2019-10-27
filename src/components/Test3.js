@@ -1,4 +1,6 @@
-import React from 'react'     
+import React from 'react'
+import img1 from '../../src/images/1.JPG'
+
 
 export const Test3 = () => (
         <div class="gallery">
@@ -6,7 +8,8 @@ export const Test3 = () => (
             <a href="/images/1.jpg">                
                 <img 
                 
-                    src="/images/1.jpg"
+                    src={img1}
+                    alt={"img1"}
 
                     style={{height:"32%",width:"32%"}}
                 
@@ -16,7 +19,7 @@ export const Test3 = () => (
             <a href="/images/2.jpg">                
                 <img 
                 
-                    src="/images/2.jpg"
+                    src={require("../images/2.JPG")}
 
                     style={{height:"32%",width:"32%"}}
                 
