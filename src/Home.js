@@ -11,8 +11,8 @@ export const Home = () => (
         <div>
             {/* <Test></Test> */}
             {/* <Grid></Grid> */}
-            {/* <Test2></Test2> */}
-            <Test3></Test3>
+            <Test2></Test2>
+            {/* <Test3></Test3> */}
         </div>
 
 )

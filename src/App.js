@@ -9,9 +9,10 @@ import {Grid} from './components/Grid'
 import {Test} from './components/Test'
 import {Test2} from './components/Test2'
 
+
 class App extends Component {
   render() {
-
+    
     function handleClick() {
       // TODO: this redirection not saving the status [change it]
       window.location = '/Home';
