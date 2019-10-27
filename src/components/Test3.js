@@ -5,7 +5,7 @@ import img1 from '../images/1.JPG'
 export const Test3 = () => (
         <div class="gallery">
             
-            <a href="/images/1.jpg">                
+            <a href="images/1.jpg">                
                 <img 
                 
                     src={img1}
@@ -16,7 +16,7 @@ export const Test3 = () => (
                 />
             </a>
 
-            <a href="/images/2.jpg">                
+            <a href="images/2.jpg">                
                 <img 
                 
                     src={require("../images/2.JPG")}
