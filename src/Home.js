@@ -8,7 +8,7 @@ import { Test3 } from './components/Test3';
 
 
 export const Home = () => (
-        <div className="grihd">
+        <div>
             {/* <Test></Test> */}
             {/* <Grid></Grid> */}
             {/* <Test2></Test2> */}

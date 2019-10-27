@@ -7,7 +7,6 @@ import { Layout } from './components/Layout';
 import { NavigationBar } from './components/NavigationBar';
 import {Grid} from './components/Grid'
 import {Test} from './components/Test'
-// import {WhatsappShareButton,FacebookIcon,FacebookShareButton,WhatsappIcon} from 'react-share'
 import {Test2} from './components/Test2'
 
 class App extends Component {
@@ -23,25 +22,9 @@ class App extends Component {
 
       {/* <a href="mailto:some@email.com" target="_blank" class="btn btn-primary">Email Us</a> */}
 
-      {/* https://github.com/caspg/react-sharingbuttons */}
+      
 
-      {/* <FacebookShareButton
-            url={"asd"}
-            quote={"ee"}
-            className="Demo__some-network__share-button">
-            <WhatsappIcon
-              size={32}
-              round />
-      </FacebookShareButton>
-
-      <WhatsappShareButton
-            url={"asd"}
-            quote={"ee"}
-            className="Demo__some-network__share-button">
-            <FacebookIcon
-              size={32}
-              round />
-      </WhatsappShareButton> */}
+     
 
         <div className="centered title">
           <button class="btn" style={{outline: "none", boxShadow:"none"}} onClick={handleClick}>

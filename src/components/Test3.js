@@ -1,5 +1,5 @@
 import React from 'react'
-import img1 from '../../src/images/1.JPG'
+import img1 from '../images/1.JPG'
 
 
 export const Test3 = () => (

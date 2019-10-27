@@ -55,3 +55,19 @@ margin-right: 12%;
   filter: grayscale(100%);
   transform: scale(1.1);
 }
+
+.Share_button_box {
+  vertical-align: top;
+  display: inline-block;
+  margin-right: 15px;
+  text-align: center;
+}
+
+.Share-button {
+  cursor: pointer;
+}
+
+.Share-button:hover:not(:active) {
+  opacity: 0.75;
+}
+
