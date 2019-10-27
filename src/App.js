@@ -7,7 +7,7 @@ import { Layout } from './components/Layout';
 import { NavigationBar } from './components/NavigationBar';
 import {Grid} from './components/Grid'
 import {Test} from './components/Test'
-import {WhatsappShareButton,FacebookIcon,FacebookShareButton,WhatsappIcon} from 'react-share'
+// import {WhatsappShareButton,FacebookIcon,FacebookShareButton,WhatsappIcon} from 'react-share'
 import {Test2} from './components/Test2'
 
 class App extends Component {
@@ -25,7 +25,7 @@ class App extends Component {
 
       {/* https://github.com/caspg/react-sharingbuttons */}
 
-      <FacebookShareButton
+      {/* <FacebookShareButton
             url={"asd"}
             quote={"ee"}
             className="Demo__some-network__share-button">
@@ -41,7 +41,7 @@ class App extends Component {
             <FacebookIcon
               size={32}
               round />
-      </WhatsappShareButton>
+      </WhatsappShareButton> */}
 
         <div className="centered title">
           <button class="btn" style={{outline: "none", boxShadow:"none"}} onClick={handleClick}>
@@ -50,7 +50,7 @@ class App extends Component {
           
         </div>
 
-        <Test2></Test2>
+        
 
         <div className="centered">
           <NavigationBar/>
