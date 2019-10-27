@@ -8,12 +8,13 @@ import { NavigationBar } from './components/NavigationBar';
 import {Grid} from './components/Grid'
 import {Test} from './components/Test'
 import {WhatsappShareButton,FacebookIcon,FacebookShareButton,WhatsappIcon} from 'react-share'
+import {Test2} from './components/Test2'
 
 class App extends Component {
   render() {
 
     function handleClick() {
-      // TODO: this reloaction not saving the status [change it]
+      // TODO: this redirection not saving the status [change it]
       window.location = '/Home';
     }
 
@@ -48,6 +49,8 @@ class App extends Component {
           </button>
           
         </div>
+
+        <Test2></Test2>
 
         <div className="centered">
           <NavigationBar/>
