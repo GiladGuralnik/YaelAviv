@@ -30,7 +30,7 @@ export const Test3 = () => (
             <a href="/images/3.jpg">                
                 <img 
                 
-                    src="/images/3.jpg"
+                    src={require("../images/3.JPG")}
 
                     style={{height:"32%",width:"32%"}}
                 
@@ -41,7 +41,7 @@ export const Test3 = () => (
             <a href="/images/2.jpg">                
                 <img 
                 
-                    src="/images/2.jpg"
+                    src={require("../images/2.JPG")}
 
                     style={{height:"32%",width:"32%"}}
                 
@@ -51,7 +51,7 @@ export const Test3 = () => (
             <a href="/images/3.jpg">                
                 <img 
                 
-                    src="/images/3.jpg"
+                    src={require("../images/3.JPG")}
 
                     style={{height:"32%",width:"32%"}}
                 
@@ -62,7 +62,7 @@ export const Test3 = () => (
             <a href="/images/1.jpg">                
                 <img 
                 
-                    src="/images/1.jpg"
+                    src={require("../images/1.JPG")}
 
                     style={{height:"32%",width:"32%"}}
                 
