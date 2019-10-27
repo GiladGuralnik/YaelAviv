@@ -38,6 +38,7 @@
     ]
   },
   "devDependencies": {
+    "fslightbox": "^3.0.4",
     "fslightbox-react": "^1.4.3"
   }
 }
