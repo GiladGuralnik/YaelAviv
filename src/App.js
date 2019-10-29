@@ -28,7 +28,7 @@ class App extends Component {
      
 
         <div className="centered title">
-          <button class="btn" style={{outline: "none", boxShadow:"none"}} onClick={handleClick}>
+          <button className="btn" style={{outline: "none", boxShadow:"none"}} onClick={handleClick}>
             <h1>Yael Aviv Lasry</h1>
           </button>
           
