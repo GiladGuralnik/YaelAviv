@@ -5,7 +5,7 @@ import img1 from '../images/1.JPG'
 
 export const Test3 = () => (
 
-    
+    <div class="responsive">
         <div class="gallery">
 
             <a 
@@ -79,5 +79,7 @@ export const Test3 = () => (
 
 
         </div>
+
+    </div>
 
 )
