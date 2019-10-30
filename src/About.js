@@ -28,7 +28,7 @@ export const About = () => (
             <h2 style={{textAlign: "center", paddingTop:"20px"}} >About Me</h2>
             <h6 
             class="font-weight-normal" 
-            style={{margin:"0 auto",textAlign: "center",width:"500px",paddingTop:"10px",paddingBottom:"100px"}}>
+            style={{margin:"0 auto",textAlign: "center",maxWidth:"500px",paddingTop:"10px",paddingBottom:"100px"}}>
             I'm a Designer.blah blah blah blah blah blah . blah blah blah blah, blah blah blah blah, blah. blah blah blah blah blah.blah blah blah blah blah blah . blah blah blah blah, blah blah blah blah, blah. blah blah blah blah blah. blah blah blah blah blah blah . blah blah blah blah, blah blah blah blah, blah. blah blah blah blah blah.
             </h6>
         </div>
