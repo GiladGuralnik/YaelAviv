@@ -1,4 +1,5 @@
-import React from 'react'      
+import React from 'react'    
+import frameImage from './images/frame.png'  
 
 // const sgMail = require('@sendgrid/mail');
 // sgMail.setApiKey('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');
@@ -13,8 +14,22 @@ import React from 'react'
 //  sgMail.send(msg).catch(error => {alert(error.toString()); });
 
 export const About = () => (
-        <div style={{position: 'absolute', left: '50%', top: '30%',
-        transform: 'translate(-50%, -50%)'}}>
-            <h2>About</h2>
+        <div>
+            <div style={{textAlign: "center",paddingTop:"20px"}}>
+            <img className="frame"
+                
+                    src={frameImage}
+                    alt={"Image"}
+
+                    style={{width:"320px"}}
+                
+                />
+            </div>
+            <h2 style={{textAlign: "center", paddingTop:"20px"}} >About Me</h2>
+            <h6 
+            class="font-weight-normal" 
+            style={{margin:"0 auto",textAlign: "center",width:"500px",paddingTop:"10px",paddingBottom:"100px"}}>
+            I'm a Designer.blah blah blah blah blah blah . blah blah blah blah, blah blah blah blah, blah. blah blah blah blah blah.blah blah blah blah blah blah . blah blah blah blah, blah blah blah blah, blah. blah blah blah blah blah. blah blah blah blah blah blah . blah blah blah blah, blah blah blah blah, blah. blah blah blah blah blah.
+            </h6>
         </div>
 )
