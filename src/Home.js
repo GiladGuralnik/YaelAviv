@@ -5,9 +5,12 @@ import {Grid} from './components/Grid'
 import {Test} from './components/Test'
 import Test2 from './components/Test2'
 import { Test3 } from './components/Test3';
-export const Home = () => (
+import { func } from 'prop-types';
 
-   
+
+export const Home = () => (
+    
+  
         <div>
             {/* <Test></Test> */}
             {/* <Grid></Grid> */}
