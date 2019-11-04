@@ -3,7 +3,7 @@ import img1 from '../images/1.JPG'
 
 
 
-export const Test3 = () => (
+export const Mixed = () => (
 
     <div class="responsive">
         <div class="gallery">
