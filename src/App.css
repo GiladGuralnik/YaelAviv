@@ -140,3 +140,8 @@ div.desc {
 /* .form-control:focus{
   background: rgb(255, 226, 226);
 } */
+
+ .move{
+  transition:1s;
+  background: #09d3ac;
+}

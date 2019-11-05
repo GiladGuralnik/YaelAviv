@@ -4,7 +4,9 @@ import { Lightbox } from "react-modal-image";
 
 
 const initialState = {
-    openBox : false
+    openBox : false,
+    img : "",
+    description : ""
 };
 
 export default class Mixed extends Component{
@@ -14,21 +16,21 @@ export default class Mixed extends Component{
         this.setState({ openBox: false })
       };
 
-    openLightbox = () => {
-        this.setState({ openBox: true })
+    openLightbox = (img, description) => {
+        this.setState({img: img, description: description, openBox: true,})
     }
     
     render(){
         return(
             <div class="responsive">
-               
                 {
                     this.state.openBox && (
                         <Lightbox
-                        medium={img1}
-                        large={img1}
-                        alt="Hello World!"
+                        medium={this.state.img}
+                        large={this.state.img}
+                        alt = {this.state.description}
                         onClose={this.closeLightbox}
+                        hideDownload="true"
                         />
                     )
                 }
@@ -37,17 +39,16 @@ export default class Mixed extends Component{
                         
                             src={img1}
                             alt={"img1"}
-
                             style={{height:"32%",width:"32%"}}
-                            onClick={() => this.openLightbox("img1")}
+                            onClick={() => this.openLightbox(img1,"Image 1")}
                         />
 
                     <a href="images/2.jpg">                
                         <img 
-                        
+                            alt={"img2"}
                             src={require("../images/2.JPG")}
-
                             style={{height:"32%",width:"32%"}}
+                            onClick={() => this.openLightbox(img1,"Image 2")}
                         
                         />
                     </a>
@@ -55,10 +56,10 @@ export default class Mixed extends Component{
                 
                     <a href="/images/3.jpg">                
                         <img 
-                        
+                            alt={"img3"}
                             src={require("../images/3.JPG")}
-
                             style={{height:"32%",width:"32%"}}
+                            onClick={() => this.openLightbox(img1,"Image 3")}
                         
                         />
                     </a>
