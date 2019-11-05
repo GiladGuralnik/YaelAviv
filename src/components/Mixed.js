@@ -1,5 +1,7 @@
 import React, {Component} from 'react'    
 import img1 from '../images/1.JPG'
+import img2 from '../images/2.JPG'
+import img3 from '../images/3.JPG'
 import { Lightbox } from "react-modal-image";
 
 
@@ -35,34 +37,25 @@ export default class Mixed extends Component{
                     )
                 }
                 <div class="gallery">
-                        <img 
-                        
+                        <img  
                             src={img1}
                             alt={"img1"}
                             style={{height:"32%",width:"32%"}}
                             onClick={() => this.openLightbox(img1,"Image 1")}
                         />
-
-                    <a href="images/2.jpg">                
                         <img 
+                            src={img2}
                             alt={"img2"}
-                            src={require("../images/2.JPG")}
                             style={{height:"32%",width:"32%"}}
-                            onClick={() => this.openLightbox(img1,"Image 2")}
-                        
-                        />
-                    </a>
-                    
-                
-                    <a href="/images/3.jpg">                
+                            onClick={() => this.openLightbox(img2,"Image 2")}
+                        />           
                         <img 
+                            src={img3}
                             alt={"img3"}
-                            src={require("../images/3.JPG")}
                             style={{height:"32%",width:"32%"}}
-                            onClick={() => this.openLightbox(img1,"Image 3")}
+                            onClick={() => this.openLightbox(img3,"Image 3")}
                         
                         />
-                    </a>
 
 
                     <a href="/images/2.jpg">                
