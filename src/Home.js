@@ -1,5 +1,5 @@
 import React from 'react'     
-import { Mixed } from './components/Mixed';
+import Mixed from './components/Mixed';
 
 
 export const Home = () => (
