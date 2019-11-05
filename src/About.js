@@ -16,13 +16,10 @@ import frameImage from './images/frame.png'
 export const About = () => (
         <div>
             <div style={{textAlign: "center",paddingTop:"20px"}}>
-            <img className="frame"
-                
+            <img className="frame"       
                     src={frameImage}
-                    alt={"Image"}
-
-                    style={{width:"320px"}}
-                
+                    alt={"Image1"}
+                    style={{width:"320px"}} 
                 />
             </div>
             <h2 style={{textAlign: "center", paddingTop:"20px"}} >About Me</h2>

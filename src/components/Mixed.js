@@ -24,7 +24,7 @@ export default class Mixed extends Component{
     
     render(){
         return(
-            <div class="responsive">
+            <div class="responsive" onContextMenu={(e)=> e.preventDefault()}>
                 {
                     this.state.openBox && (
                         <Lightbox
@@ -54,44 +54,26 @@ export default class Mixed extends Component{
                             alt={"img3"}
                             style={{height:"32%",width:"32%"}}
                             onClick={() => this.openLightbox(img3,"Image 3")}
-                        
-                        />
-
-
-                    <a href="/images/2.jpg">                
+                        />            
                         <img 
-                        
-                            src={require("../images/2.JPG")}
-
+                            src={img2}
+                            alt={"img2"}
                             style={{height:"32%",width:"32%"}}
-                        
-                        />
-                    </a>
-
-                    <a href="/images/3.jpg">                
+                            onClick={() => this.openLightbox(img2,"Image 2")}
+                        />             
                         <img 
-                        
-                            src={require("../images/3.JPG")}
-
+                            src={img3}
+                            alt={"img3"}
                             style={{height:"32%",width:"32%"}}
-                        
+                            onClick={() => this.openLightbox(img3,"Image 3")}
                         />
-                    </a>
-                    
-                
-                    <a href="/images/1.jpg">                
                         <img 
-                        
-                            src={require("../images/1.JPG")}
-
+                            src={img1}
+                            alt={"img1"}
                             style={{height:"32%",width:"32%"}}
-                        
+                            onClick={() => this.openLightbox(img1,"Image 1")}
                         />
-                    </a>
-
-
                 </div>
-
             </div>
 
         )

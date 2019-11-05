@@ -8,9 +8,6 @@ import Concrete  from './Concrete';
 import  Drawing  from './Drawing';
 import { Layout } from './components/Layout';
 import { NavigationBar } from './components/NavigationBar';
-import {Grid} from './components/Grid'
-import {Test} from './components/Test'
-import {Test2} from './components/Test2'
 
 
 class App extends Component {
@@ -28,7 +25,7 @@ class App extends Component {
 
         <div className="centered title">
           <button className="btn" style={{outline: "none", boxShadow:"none"}} onClick={handleClick}>
-            <h1 class="font-weight-normal">Yael Aviv Lasry</h1>
+            <h1 className="font-weight-normal">Yael Aviv Lasry</h1>
           </button>
           
         </div>
