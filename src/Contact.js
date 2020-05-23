@@ -117,11 +117,11 @@ export default class Contact extends Component {
         <Form align="center" style={{maxWidth:"450px",margin:"0 auto"}}>
             <Form.Group controlId="formBasicEmail">
                 <Form.Label></Form.Label>
-                <Form.Control value={this.state.subject} onChange={event => this.handleChange(event,"subject")} autocomplete="off" className="shadow_form" placeholder="Subject" style={{textAlign:"center"}} required="true"/>
+                <Form.Control value={this.state.subject} onChange={event => this.handleChange(event,"subject")} autoComplete="off" className="shadow_form" placeholder="Subject" style={{textAlign:"center"}} required="true"/>
             </Form.Group>
 
             <Form.Group controlId="exampleForm.ControlTextarea1">
-                <Form.Control value={this.state.message} onChange={event => this.handleChange(event,"message")} autocomplete="off" as="textarea" placeholder="Message" rows="5" className="textarea shadow_form" style={{textAlign:"center"}} required/>
+                <Form.Control value={this.state.message} onChange={event => this.handleChange(event,"message")} autoComplete="off" as="textarea" placeholder="Message" rows="5" className="textarea shadow_form" style={{textAlign:"center"}} required/>
             </Form.Group>
             <Button variant={this.state.btnType} type="submit" onClick={this.handleSubmit} disabled={this.state.isButtonDisabled}>
                 {this.state.buttonText}
